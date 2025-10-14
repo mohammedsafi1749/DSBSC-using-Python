@@ -4,7 +4,7 @@ DSBSC Modulation and Demodulation using NumPy and Matplotlib
 
 Aim:
 
-To implement and analyze DSBSC modulation (AM) using Python's NumPy and Matplotlib libraries.
+To implement and analyze DSBSC modulation using Python's NumPy and Matplotlib libraries.
 
 Apparatus :
 
