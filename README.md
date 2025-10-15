@@ -70,6 +70,7 @@ Output Waveform:
 
 Tabular Column:
 
+![WhatsApp Image 2025-10-15 at 13 10 35_676949bb](https://github.com/user-attachments/assets/d786c2bf-4ada-424b-994c-5ddf6bbb8a21)
 
 
 Result:
