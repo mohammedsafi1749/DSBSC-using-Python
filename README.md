@@ -25,43 +25,25 @@ Algorithm:
 
 Program:
 
-import numpy as np
-
-import matplotlib.pyplot as plt
-
-Am = 20.4
-
-fm = 404
-
-Ac = 40.8
-
-fc = 4040
-
-fs = 40400
-
-t = np.arange(0, 2/fm, 1/fs)
-
-m = Am * np.cos(2 * np.pi * fm * t)
-
-c = Ac * np.cos(2 * np.pi * fc * t)
-
-s1 = (Ac + m) * np.cos(2 * np.pi * fc * t)
-
-s2 = (Ac - m) * np.cos(2 * np.pi * fc * t)
-
-s = s1 - s2
-
-plt.subplot(3,1,1)
-
-plt.plot(t, m)
-
-plt.subplot(3,1,2)
-
-plt.plot(t, c)
-
-plt.subplot(3,1,3)
-
-plt.plot(t, s)
+    import numpy as np
+    import matplotlib.pyplot as plt
+    Am = 20.4
+    fm = 404
+    Ac = 40.8
+    fc = 4040
+    fs = 40400
+    t = np.arange(0, 2/fm, 1/fs)
+    m = Am * np.cos(2 * np.pi * fm * t)
+    c = Ac * np.cos(2 * np.pi * fc * t)
+    s1 = (Ac + m) * np.cos(2 * np.pi * fc * t)
+    s2 = (Ac - m) * np.cos(2 * np.pi * fc * t)
+    s = s1 - s2
+    plt.subplot(3,1,1)
+    plt.plot(t, m)
+    plt.subplot(3,1,2)
+    plt.plot(t, c)
+    plt.subplot(3,1,3)
+    plt.plot(t, s)
 
 Output Waveform:
 
