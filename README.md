@@ -1,4 +1,4 @@
-# DSBSC-using-Python
+# EXP NO: 6 DSBSC-using-Python
 
 DSBSC Modulation and Demodulation using NumPy and Matplotlib
 
